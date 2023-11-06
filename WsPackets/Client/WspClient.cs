@@ -21,9 +21,13 @@ public class WspClient
         TypeResolver = typeResolver;
     }
 
-    public async Task<WspConnection> AddConnection()
+    public async Task<WspConnection> AddConnection(Action<ClientWebSocketOptions>? modifyOptions = null)
     {
         var webSocket = new ClientWebSocket();
+        
+        if(modifyOptions != null)
+            modifyOptions.Invoke(webSocket.Options);
+        
         await webSocket.ConnectAsync(new Uri(Endpoint), CancellationToken.Token);
 
         if (webSocket.State == WebSocketState.Closed || webSocket.State == WebSocketState.Aborted)
