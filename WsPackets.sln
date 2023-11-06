@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsPackets", "WsPackets\WsPackets.csproj", "{13A011A9-3E40-4B5A-97C2-D9585E1D8870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsPackets.Test.Server", "WsPackets.Test.Server\WsPackets.Test.Server.csproj", "{1C6F52A6-3C4C-4C39-937D-1BEE88B9EA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsPackets.Test.Client", "WsPackets.Test.Client\WsPackets.Test.Client.csproj", "{FA0F25BE-2EF2-425B-82A8-2818F8624C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A011A9-3E40-4B5A-97C2-D9585E1D8870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A011A9-3E40-4B5A-97C2-D9585E1D8870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A011A9-3E40-4B5A-97C2-D9585E1D8870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A011A9-3E40-4B5A-97C2-D9585E1D8870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6F52A6-3C4C-4C39-937D-1BEE88B9EA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6F52A6-3C4C-4C39-937D-1BEE88B9EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6F52A6-3C4C-4C39-937D-1BEE88B9EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6F52A6-3C4C-4C39-937D-1BEE88B9EA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0F25BE-2EF2-425B-82A8-2818F8624C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0F25BE-2EF2-425B-82A8-2818F8624C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0F25BE-2EF2-425B-82A8-2818F8624C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0F25BE-2EF2-425B-82A8-2818F8624C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
