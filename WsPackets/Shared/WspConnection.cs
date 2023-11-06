@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Net.WebSockets;
 using Newtonsoft.Json;
-using Serilog;
 
 namespace WsPackets.Shared;
 

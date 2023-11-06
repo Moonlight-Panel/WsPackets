@@ -1,5 +1,4 @@
 ﻿using System.Net.WebSockets;
-using Serilog;
 using WsPackets.Shared;
 
 namespace WsPackets.Client;
@@ -34,9 +33,6 @@ public class WspClient
             throw new Exception("Unable to connect to endpoint");
         
         var wspConnection = new WspConnection(webSocket, TypeResolver);
-
-        //TODO: replace
-        wspConnection.OnLogError = Log.Error;
 
         wspConnection.OnDisconnected += (_, _) =>
         {
